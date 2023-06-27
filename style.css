@@ -18,7 +18,15 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin: 20px;
 }
 
 /* Containers */
@@ -52,7 +60,8 @@ a:hover {
 }
 
 nav a {
-  padding-left: 20px;
+  padding-left:;
+  margin: 10px;
 }
 
 /* Images */
@@ -75,4 +84,38 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+/* About section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-intro {
+  text-align: left;
+}
+
+.about-intro h3 {
+  text-align: center;
+}
+
+/* Portfolio section */
+#portfolio h2 {
+  text-align: center;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#portfolio section p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#portfolio section {
+  margin: 5px;
+  width: 100%;
 }
